@@ -1,0 +1,61 @@
+=== CASOS DE PRUEBA PARA CLASIFICADOR IRIS ===
+
+== IRIS SETOSA ==
+# Casos típicos (muy probable que sean Setosa)
+5.1, 3.5, 1.4, 0.2  # Caso clásico
+4.9, 3.0, 1.4, 0.2  # Caso común
+4.7, 3.2, 1.3, 0.2  # Variante típica
+5.4, 3.9, 1.7, 0.4  # Setosa grande
+4.4, 2.9, 1.4, 0.2  # Setosa pequeña
+
+== IRIS VERSICOLOR ==
+# Casos típicos (muy probable que sean Versicolor)
+6.4, 3.2, 4.5, 1.5  # Caso clásico
+6.0, 2.7, 5.1, 1.6  # Caso común
+5.9, 3.0, 4.2, 1.5  # Variante típica
+6.6, 2.9, 4.6, 1.3  # Versicolor grande
+5.5, 2.5, 4.0, 1.3  # Versicolor pequeña
+
+== IRIS VIRGINICA ==
+# Casos típicos (muy probable que sean Virginica)
+7.2, 3.2, 6.0, 1.8  # Caso clásico
+6.5, 3.0, 5.8, 2.2  # Caso común
+7.3, 2.9, 6.3, 1.8  # Variante típica
+7.7, 3.8, 6.7, 2.2  # Virginica grande
+6.3, 2.9, 5.6, 1.8  # Virginica pequeña
+
+== CASOS LÍMITE ==
+# Casos en la frontera entre especies (interesantes para probar)
+
+# Entre Versicolor y Virginica
+6.0, 2.9, 4.5, 1.5  # Podría ser cualquiera
+6.7, 3.0, 5.2, 1.5  # Caso difícil
+6.3, 2.8, 5.1, 1.9  # Fronterizo
+
+# Entre Setosa y Versicolor
+5.0, 3.3, 1.4, 0.2  # Más probable Setosa
+5.2, 2.7, 3.0, 1.0  # Más probable Versicolor
+5.1, 3.0, 2.0, 0.5  # Caso muy dudoso
+
+== INSTRUCCIONES DE USO ==
+1. Copiar los valores (separados por coma) de cualquier caso de prueba
+2. Ejecutar: python main.py
+3. Pegar cada valor cuando se solicite
+4. Analizar resultados:
+   - Predicción final
+   - Probabilidades por especie
+   - Visualización
+   - Estadísticas comparativas
+
+== VALORES ESPERADOS ==
+Setosa:
+- Sépalo: 4.3-5.8 cm (largo) x 2.3-4.4 cm (ancho)
+- Pétalo: 1.0-1.9 cm (largo) x 0.1-0.5 cm (ancho)
+
+Versicolor:
+- Sépalo: 4.9-7.0 cm (largo) x 2.0-3.4 cm (ancho)
+- Pétalo: 3.0-5.1 cm (largo) x 1.0-1.8 cm (ancho)
+
+Virginica:
+- Sépalo: 4.9-7.9 cm (largo) x 2.2-3.8 cm (ancho)
+- Pétalo: 4.5-6.9 cm (largo) x 1.4-2.5 cm (ancho) 
